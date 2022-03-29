@@ -5,7 +5,7 @@ import { UilMehClosedEye, UilMapPinAlt, UilReact, UilJavaScript, UilDocker, UilL
 
 function App() {
     return (
-        <div className="bg-black h-screen flex flex-col md:flex-row">
+        <div className="fixed bg-black overflow-auto w-screen h-screen flex flex-col md:flex-row">
             <div className="w-1/12">
                 <div className="p-4">
                     <header className="relative top-0 left-0 text-yellow"><UilMehClosedEye size="60" /></header>
