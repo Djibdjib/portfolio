@@ -1,7 +1,7 @@
 import './App.css';
 
 //ICONS
-import { UilMehClosedEye, UilMapPinAlt, UilAward, UilReact, UilJavaScript, UilDocker, UilLinux, UilGithub } from "@iconscout/react-unicons";
+import { UilMehClosedEye, UilMapPinAlt, UilReact, UilJavaScript, UilDocker, UilLinux, UilGithub } from "@iconscout/react-unicons";
 
 function App() {
     return (
@@ -29,11 +29,11 @@ function App() {
                         <div className="relative bottom-0 right-0 border-r border-white h-full">
 
                             <ul className="relative bg-black block h-60" style={{ left: 20 }}>
-                                <li className="my-1"><a href="" className=""><UilReact size="36" className="text-white" /></a></li>
-                                <li className="my-1"><a href="" className=""><UilJavaScript size="36" className="text-white" /></a></li>
-                                <li className="my-1"><a href="" className=""><UilDocker size="36" className="text-white" /></a></li>
-                                <li className="my-1"><a href="" className=""><UilLinux size="36" className="text-white" /></a></li>
-                                <li className="my-1"><a href="" className=""><UilGithub size="36" className="text-white" /></a></li>
+                                <li className="my-1"><UilReact size="36" className="text-white" /></li>
+                                <li className="my-1"><UilJavaScript size="36" className="text-white" /></li>
+                                <li className="my-1"><UilDocker size="36" className="text-white" /></li>
+                                <li className="my-1"><UilLinux size="36" className="text-white" /></li>
+                                <li className="my-1"><UilGithub size="36" className="text-white" /></li>
                             </ul>
                         </div>
 
